@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'view/:id', component: ViewUserComponent },
   { path: 'update/:id', component: UpdateUserComponent },
   { path: 'create', component: CreateUserComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
